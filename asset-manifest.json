@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/presidentcar/static/css/main.a1acda38.css",
+    "main.js": "/presidentcar/static/js/main.8c33fc45.js",
+    "static/media/8.png": "/presidentcar/static/media/8.0c9ee74357322c20be02.png",
+    "static/media/6.png": "/presidentcar/static/media/6.6828c02288e36327940a.png",
+    "static/media/3.png": "/presidentcar/static/media/3.58f05de8802bb6b6adf2.png",
+    "static/media/5.png": "/presidentcar/static/media/5.edf43e1285319e3d34b2.png",
+    "static/media/1.png": "/presidentcar/static/media/1.ee2950f5f4d913dced8f.png",
+    "static/media/7.png": "/presidentcar/static/media/7.e85b36fd4ea24da434b7.png",
+    "static/media/2.png": "/presidentcar/static/media/2.dc3ab6f4a1bf81814928.png",
+    "static/media/4.png": "/presidentcar/static/media/4.256140ce2a2dd359dc07.png",
+    "static/media/bg.jpg": "/presidentcar/static/media/bg.e88ed52b31af2772af9d.jpg",
+    "static/media/footer-bg2.jpg": "/presidentcar/static/media/footer-bg2.fc44118238daf573e707.jpg",
+    "static/media/footer-bg.jpg": "/presidentcar/static/media/footer-bg.02fc1e4e7ec1c631023c.jpg",
+    "static/media/about-bg.jpg": "/presidentcar/static/media/about-bg.60c7302a17bf13470c77.jpg",
+    "static/media/about-bg2.jpg": "/presidentcar/static/media/about-bg2.e533163dadb10a3c36f2.jpg",
+    "static/media/about-image.jpg": "/presidentcar/static/media/about-image.d2b77bf875367dd069d1.jpg",
+    "index.html": "/presidentcar/index.html",
+    "main.a1acda38.css.map": "/presidentcar/static/css/main.a1acda38.css.map",
+    "main.8c33fc45.js.map": "/presidentcar/static/js/main.8c33fc45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1acda38.css",
+    "static/js/main.8c33fc45.js"
+  ]
+}
