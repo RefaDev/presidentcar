@@ -1,0 +1,136 @@
+@import '../../styles/variables';
+
+.section-1 {
+  text-align: center;
+  // background-image: url(../../assets/images/bg.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center center;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+  min-height: calc(100vh - 71px);
+  // @media only screen and (max-width: 767px) {
+  //   /* Здесь размер файла уменьшен на 93% чтобы  увеличить скорость загрузки страницы с мобильных устройств */
+  //   background-image: url(../../assets/images/bg1.jpg);
+  // }
+}
+
+.section-1-content {
+  margin: 0px 0px 50px 0px;
+  h1 {
+    color: $gold;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 50px 0px;
+  }
+  p {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 130%;
+    /* or 45px */
+
+    text-align: center;
+    color: $white;
+  }
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+.main-form {
+  p {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: $gold;
+    margin: 0px 0px 34px 0px;
+  }
+}
+
+.section-2 {
+  background: url(../../assets/images/footer-bg2.jpg);
+  text-align: center;
+}
+
+.section-2-content {
+  h2 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+
+    line-height: 130%;
+    padding: 41px 0px 41px 0px;
+    /* or 83px */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* DCCA87 */
+
+    color: #dcca87;
+  }
+  @media (max-width: 450px) {
+    h2 {
+      font-size: 28px;
+    }
+  }
+}
+.images-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px auto 20px auto;
+  overflow: hidden;
+
+  img {
+    border-radius: 20px;
+    height: 400px;
+    max-width: 295px;
+  }
+}
+
+@media screen and (min-width: 488px) {
+  .swiper-container {
+    width: 488px;
+  }
+}
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .swiper-container {
+    width: 767px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .swiper-container {
+    width: 100%;
+  }
+}

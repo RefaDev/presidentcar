@@ -1,0 +1,130 @@
+@import '../../styles/variables';
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+form {
+  margin: 0px 0px 30px 0px;
+  position: relative;
+  .select {
+    border: 1px solid #f5efdb;
+    background: transparent;
+    border-radius: 0px;
+    height: 62px;
+    &:hover {
+      background: transparent;
+    }
+  }
+  input,
+  select {
+    border: 1px solid #f5efdb;
+    padding: 16px 35px;
+    height: 62px;
+    width: 300px;
+    margin: 0px 20px 20px 0px;
+    background: transparent;
+    color: $light-gold;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    @media (max-width: 767px) {
+      margin: 0px 9px 20px 0px;
+    }
+    @media (max-width: 663px) {
+      margin: 0px 0px 20px 0px;
+      min-width: 100%;
+    }
+
+    &::placeholder {
+      color: $light-gold;
+      font-family: 'Cormorant Upright';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+    }
+    &:focus {
+			background: transparent;
+      outline: none;
+      -webkit-box-shadow: 0px 0px 22px -3px rgba(255, 219, 110, 0.25);
+      -moz-box-shadow: 0px 0px 22px -3px rgba(255, 219, 110, 0.25);
+      box-shadow: 0px 0px 22px -3px rgba(255, 219, 110, 0.25);
+    }
+		&:active{
+			background: transparent;
+		}
+  }
+  @media (max-width: 992px) {
+    #phone {
+      margin-right: 0;
+    }
+  }
+  input {
+    &::placeholder {
+      font-size: 25px;
+    }
+  }
+  select {
+    margin-right: 0;
+    &:hover {
+      cursor: pointer;
+    }
+    option {
+      background-color: $dark-gold;
+      font-size: 20px;
+    }
+  }
+}
+.main-button {
+  font-family: 'Cormorant Upright';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0c0c;
+  padding: 8px 32px;
+  background: $gold;
+  margin: 34px 0px 30px 0px;
+  border: none;
+  transition: all 0.3s ease;
+ 
+
+  &:hover {
+    background-color: $dark-gold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  &:disabled {
+    opacity: 0.35;
+  }
+}
+.input-error {
+  border: 1px solid tomato;
+}
+.input-item {
+  position: relative;
+  max-width: 100%;
+}
+.error {
+  color: tomato;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.alert {
+  width: 200px;
+  margin: 0 auto;
+}
