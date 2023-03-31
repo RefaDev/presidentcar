@@ -7,6 +7,8 @@ import { Route, Routes } from 'react-router-dom'
 
 import '../../styles/App.scss'
 
+
+
 function App() {
   return (
     <div className='wrapper'>
