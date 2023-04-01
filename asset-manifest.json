@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/presidentcar/static/css/main.a1acda38.css",
-    "main.js": "/presidentcar/static/js/main.31c42b48.js",
+    "main.js": "/presidentcar/static/js/main.4d25843b.js",
     "static/media/8.png": "/presidentcar/static/media/8.0c9ee74357322c20be02.png",
     "static/media/6.png": "/presidentcar/static/media/6.6828c02288e36327940a.png",
     "static/media/3.png": "/presidentcar/static/media/3.58f05de8802bb6b6adf2.png",
@@ -18,10 +18,10 @@
     "static/media/about-image.jpg": "/presidentcar/static/media/about-image.d2b77bf875367dd069d1.jpg",
     "index.html": "/presidentcar/index.html",
     "main.a1acda38.css.map": "/presidentcar/static/css/main.a1acda38.css.map",
-    "main.31c42b48.js.map": "/presidentcar/static/js/main.31c42b48.js.map"
+    "main.4d25843b.js.map": "/presidentcar/static/js/main.4d25843b.js.map"
   },
   "entrypoints": [
     "static/css/main.a1acda38.css",
-    "static/js/main.31c42b48.js"
+    "static/js/main.4d25843b.js"
   ]
 }
