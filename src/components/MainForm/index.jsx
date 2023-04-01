@@ -9,8 +9,8 @@ import { useState } from 'react'
 import './styles.scss'
 
 const MainForm = forwardRef(({ buttonName }, ref) => {
-  const TOKEN = '6277471408:AAE_qshxc9zenv5p_ceUeoFTGnBdJAoALeA'
-  const CHAT_ID = `782397974`
+  const TOKEN = process.env.TOKEN
+  const CHAT_ID = process.env.CHAT_ID
   const URI = `https://api.telegram.org/bot${TOKEN}/sendMessage`
   const [submited, setSumbited] = useState(false)
 
